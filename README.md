@@ -14,4 +14,4 @@ Os estado concretos (podemos ter vários estados concretos) lidam com as solicit
 Sempre que uma solicitação() é feita ao contexto, ela é delegada ao estado apropriado para ser processado.
 
 ## Exemplo de implmentação
-
+https://github.com/gustavokiyatake/State/tree/main/State-Pattern/src
