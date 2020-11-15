@@ -8,13 +8,10 @@ O padrão State deve ser usado quando o comportamento do objeto depende do seu e
 ## Estrutura 
 ![State](https://www.devmedia.com.br/imagens/articles/208953/state1.PNG)
 ## Participantes
-#### 
-
-#### 
-
-#### 
-
-#### 
+O contexto é a classe que pode ter vários estados internos diferentes.
+A interface estado define uma interface comum para todos os estados concretos. Como são intervambiaveis, todos devem implementar a mesma interface.
+Os estado concretos (podemos ter vários estados concretos) lidam com as solicitações provenientes do contexto. Cada estado concreto fornece a sua própria implementação de uma solicitação. Assim, quando o contexto muda de estado, seu comportamento também muda.
+Sempre que uma solicitação() é feita ao contexto, ela é delegada ao estado apropriado para ser processado.
 
 ## Exemplo de implmentação
 
